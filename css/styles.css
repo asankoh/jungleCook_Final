@@ -113,6 +113,17 @@ h1, h2, h3, h4, h5, h6, p {
   padding-left: 10px;
 }
 
+body {
+  background-image: url("../img/recipe-hero.jpg");
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: right;
+}
+
 a {
   font-family: CaveatRegular;
   color: black;
