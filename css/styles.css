@@ -95,24 +95,6 @@ h1, h2, h3, h4, h5, h6, p {
   background-size: cover;
 }
 
-#cover nav {
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-}
-
-#cover nav .logo {
-  margin-right: 200px;
-}
-
-#cover nav .links a {
-  justify-self: end;
-  text-decoration: none;
-  color: black;
-  padding-left: 10px;
-}
-
 body {
   background-image: url("../img/recipe-hero.jpg");
   height: 100%;
@@ -147,6 +129,18 @@ nav a {
   font-size: 25px;
   margin-right: 45px;
   padding-bottom: 45px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: CaveatRegular;
+  font-size: 25px;
+  height: 45px;
+  width: 190px;
+  background-color: #FFD972;
+  border-radius: 43px;
 }
 
 .recipe-content {
