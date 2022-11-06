@@ -116,12 +116,16 @@ h1, h2, h3, h4, h5, h6, p {
 body {
   background-image: url("../img/recipe-hero.jpg");
   height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 nav {
+  height: 100px;
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: right;
+  align-items: center;
+  justify-content: end;
 }
 
 a {
@@ -131,6 +135,27 @@ a {
   font-size: 25px;
 }
 
+footer {
+  display: flex;
+  flex-flow: row nowrap;
 
+}
+
+.copyright {
+  font-family: LatoIt;
+  font-size: 13px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-left: 200px;
+}
+
+.footer-menu a {
+  font-family: LatoIt;
+  font-size: 13px;
+  justify-content: space-between;
+}
 
 /*# sourceMappingURL=styles.css.map */
