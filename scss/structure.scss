@@ -9,3 +9,13 @@ html, body {
 h1, h2, h3, h4, h5, h6, p {
  margin-bottom: 16px
 }
+
+@font-face {
+    font-family: Caveat;
+    src: url(../css/fonts/Caveat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../css/fonts/Lato/Lato-Regular.ttf);
+}

@@ -1,0 +1,57 @@
+.content{
+margin: auto;
+
+.yellow_circle{
+    width: 450px;
+    height: 450px;
+    background-color: #FFD972;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 150px;
+    left: 550px;
+   
+    h2{
+        font-family: Caveat;
+        letter-spacing: 2px;
+        position: relative;
+        bottom: 50px;
+        left: 70px;
+    }
+
+    .heroText{
+        width: 150px;
+        position: relative;
+        top: 30px;
+        right: 80px;
+        text-align: center;
+        font-size: 13px;
+        font-family: Lato;
+
+    }
+
+    
+}
+
+.pink_circle{ 
+    width: 150px;
+    height: 150px;
+    background-color: #FCBCB8;
+    border-radius: 50%;
+    margin: 20px 910px;
+  
+    p{
+        text-align: center;
+        width: 100px;
+        position: relative;
+        top: 60px;
+        left: 25px;
+        font-family: Lato;
+        font-size: 10px;
+        
+    }
+}
+}
+
