@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-position: center;
   background-size: cover;
 }
-<<<<<<< HEAD
+
 #cover nav {
   width: clamp(600px, 100%, 100%);
   height: 100px;
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6, p {
   left: 25px;
   font-family: Lato;
   font-size: 10px;
-=======
+}
 
 body {
   background-image: url("../img/recipe-hero.jpg");
@@ -202,7 +202,7 @@ nav {
   align-items: center;
   justify-content: end;
   padding-top: 80px;
->>>>>>> 7ecf3c1c023d17424db155bd3239689b776866f8
+
 }
 
 nav a {
